@@ -77,3 +77,5 @@ JOIN (
     GROUP BY cliente_fk
     HAVING COUNT(id) > 5
 ) sub ON c.id = sub.cliente_fk;
+
+-- Hola
